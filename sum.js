@@ -1,15 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const hello = () => {
+const sum = () => {
   return (
     <View>
-      <Text>hello</Text>
-      <Text> i like tea</Text>
+      <Text>sum</Text>
     </View>
   );
 };
 
-export default hello;
+export default sum;
 
 const styles = StyleSheet.create({});
